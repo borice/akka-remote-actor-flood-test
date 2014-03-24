@@ -8,6 +8,7 @@ To run, configure your IDE to run the remote.Main class as follows:
 * pass cmd line argumets "sender N" to start the sender and send N messages to receiver
 
 The problem I'm seeing is that the time it takes to send N messages from sender to receiver does not scale linearly with N.  Both sender and receiver were executed on the same machine (new generation Macbook Pro) in separate JVM processes.
+For more information about this, see [this post](https://groups.google.com/forum/#!topic/akka-user/5vYs4jKMaQU).
 
 Example  
 -------
